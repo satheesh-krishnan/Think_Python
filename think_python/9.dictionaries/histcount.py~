@@ -1,0 +1,5 @@
+from histogram import * 
+m='kgjhjhkfiu'
+h=hist(m)
+print h
+

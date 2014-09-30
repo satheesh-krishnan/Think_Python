@@ -1,0 +1,19 @@
+import random
+def sort_by_length(words):
+    t = []
+    for word in words:
+       t.append((len(word), word))
+
+    t.sort(reverse=True)
+
+    res = []
+    for length, word in t:
+        res.append(word)
+    return res
+s='kgjh jdfn jngd jndg kkm kmfd'
+l=s.split(" ")
+
+
+d=sort_by_length(l)
+print d
+
